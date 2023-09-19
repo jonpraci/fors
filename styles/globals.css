@@ -474,8 +474,9 @@ header.fixed .navbar {
 }
 
 .pair_content2{
-  height: 400px;
+  height: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 20px 40px;
 
@@ -2545,7 +2546,7 @@ header.fix_style.white_header {
 /* Bredcrumb Css Start */
 .bred_crumb {
   /* background-image: url(../images/out/bread_crumb_bg.png); */
-  /*background: var(--purple);*/
+  background: var(--purple);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3686,7 +3687,8 @@ header.fix_style.white_header {
   }
   .pair_content2 .video-container{
     width: 100%;
-    height: 300px;
+    height: auto;
+    padding: 0;
    
   }
   .pair_content2 .left_side{

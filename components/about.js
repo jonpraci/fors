@@ -6,8 +6,8 @@ import shap4 from "../images/abt_01.png"
 import shap5 from "../images/abt_02.png"
 import shap6 from "../images/abt_03.png"
 import shap7 from "../images/play_black.png"
-import vid from '../public/caravanvid.mp4';
-import vid2 from '../public/newvid.mp4';
+// import vid from '../public/caravanvid.mp4';
+// import vid2 from '../public/newvid.mp4';
 import { useTranslation } from 'react-i18next';
 
 const About = (props) => {
@@ -48,7 +48,7 @@ const About = (props) => {
                   <ul>
                     <li>
                     <div className="video-container" style={{padding:'0'}}>
-                <video
+                {/* <video
                 width={'100%'}
                     controls
                     autoPlay
@@ -59,7 +59,9 @@ const About = (props) => {
                     <source src={vid} type="video/mp4"/>
                     <source src={vid} type="video/ogg" />
                     Your browser does not support the video tag.
-                </video>
+                </video> */}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C-NxBMIC22o?si=zzXqGw1mKhxo4uqc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
             </div>
                     </li>
                    
