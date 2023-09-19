@@ -1,0 +1,32 @@
+{
+  "name": "karavan-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "i18next": "^23.5.1",
+    "i18next-http-backend": "^2.2.2",
+    "lfs": "^0.0.4",
+    "next": "13.4.19",
+    "next-i18next": "^14.0.3",
+    "next-translate": "^2.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.2.2",
+    "react-responsive-carousel": "^3.2.23",
+    "swiper": "^10.2.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
